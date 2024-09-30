@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/sleep-check-app/static/css/main.8e68f59c.css",
+    "main.js": "/sleep-check-app/static/js/main.3a35bdd9.js",
+    "static/js/206.28527580.chunk.js": "/sleep-check-app/static/js/206.28527580.chunk.js",
+    "index.html": "/sleep-check-app/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.8e68f59c.css",
+    "static/js/main.3a35bdd9.js"
+  ]
+}
