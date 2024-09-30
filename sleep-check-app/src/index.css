@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h2 {
+    padding: 4px;
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+ul li {
+    padding: 8px;
+}

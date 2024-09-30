@@ -7,6 +7,7 @@ import Header from './shared/component/Header';
 import SleepDairyPage from './pages/SleepDairyPage';
 import SleepTipsPage from './pages/SleepTipsPage';
 import AISSelfCheckPage from './pages/AISSelfCheckPage';
+import Footer from './shared/component/Footer';
 
 function App() {
   return (
@@ -20,8 +21,8 @@ function App() {
         <Route path='/sleep-check-app/sleep-tips' element={<SleepTipsPage />} />
         <Route path='/sleep-check-app/ais-self-check' element={<AISSelfCheckPage />} />
       </Routes>
-
     </div>
+    <Footer />
     </>
   );
 }

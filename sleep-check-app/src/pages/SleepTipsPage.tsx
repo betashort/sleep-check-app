@@ -3,8 +3,9 @@ import React from 'react'
 function SleepTipsPage() {
   return (
     <>
+    <div className='p-4'>
     {/* アコーディオン */}
-    <h2>朝、目を覚ます方法？</h2>
+    <h2 className=''>朝、目を覚ます方法？</h2>
     <ul>
         <li>朝ごはんを食べる</li>
         <li>コーヒーを飲む</li>
@@ -35,6 +36,7 @@ function SleepTipsPage() {
         <li>寝る前は仕事・悩み事は考えないようにしよう</li>
         <li>寝る前はSNSを見ないようにしよう</li>
     </ul>
+    </div>
     </>
   )
 }
