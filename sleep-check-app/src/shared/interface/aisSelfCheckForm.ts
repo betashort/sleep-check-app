@@ -6,5 +6,4 @@ export interface IAISSelfCheckFormQuestion{
 export interface IAISSelfCheckFormAnswer{
     id: string;
     score: number;
-    answer: string;
 }
