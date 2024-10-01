@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/sleep-check-app/static/css/main.960f0970.css",
-    "main.js": "/sleep-check-app/static/js/main.ac550890.js",
+    "main.css": "/sleep-check-app/static/css/main.c58245a5.css",
+    "main.js": "/sleep-check-app/static/js/main.c8dfc71c.js",
     "static/js/206.28527580.chunk.js": "/sleep-check-app/static/js/206.28527580.chunk.js",
     "static/media/sleep.png": "/sleep-check-app/static/media/sleep.b4d7d968829b82b8647c.png",
     "index.html": "/sleep-check-app/index.html"
   },
   "entrypoints": [
-    "static/css/main.960f0970.css",
-    "static/js/main.ac550890.js"
+    "static/css/main.c58245a5.css",
+    "static/js/main.c8dfc71c.js"
   ]
 }
