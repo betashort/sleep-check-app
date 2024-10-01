@@ -3,7 +3,6 @@ import { useForm } from "react-hook-form";
 import {
   ANSWERCHOICES,
   CHOICELIST,
-  IAnswerChoice,
   QUESTIONS,
 } from "../assets/data/aisSelfCheckQA";
 
@@ -17,9 +16,7 @@ function AISSelfCheckPage() {
   // useForm
   const {
     register,
-    handleSubmit,
     watch,
-    formState: { errors },
   } = useForm<IQA>();
 
   let tmpScore = 0;
