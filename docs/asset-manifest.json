@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sleep-check-app/static/css/main.91ecf96f.css",
-    "main.js": "/sleep-check-app/static/js/main.d729489a.js",
+    "main.css": "/sleep-check-app/static/css/main.380df46c.css",
+    "main.js": "/sleep-check-app/static/js/main.4828088e.js",
     "static/js/206.28527580.chunk.js": "/sleep-check-app/static/js/206.28527580.chunk.js",
     "static/media/sleep.png": "/sleep-check-app/static/media/sleep.b4d7d968829b82b8647c.png",
     "static/media/参考_睡眠の超基本.jpg": "/sleep-check-app/static/media/参考_睡眠の超基本.e4c77a1458bfd0465fe2.jpg",
@@ -9,7 +9,7 @@
     "index.html": "/sleep-check-app/index.html"
   },
   "entrypoints": [
-    "static/css/main.91ecf96f.css",
-    "static/js/main.d729489a.js"
+    "static/css/main.380df46c.css",
+    "static/js/main.4828088e.js"
   ]
 }

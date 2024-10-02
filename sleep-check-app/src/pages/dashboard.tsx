@@ -34,7 +34,7 @@ function Dashboard() {
           </div>
           <div className="m-4">
             <a href="https://amzn.to/4duJgJO">
-              <img src={referencesImage2} alt="最高の睡眠" width="200" />
+              <img src={referencesImage2} alt="最高の睡眠" width="200" /> 
             </a>
           </div>
         </div>
