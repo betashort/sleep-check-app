@@ -13,7 +13,7 @@ function App() {
   return (
     <>
     <Header />
-    <div className='w-full h-svh'>
+    <div className='w-full'>
       <Routes>
         <Route path='/sleep-check-app' element={<Dashboard />} />
         <Route path='/sleep-check-app/sleep-check-sheet' element={<SleepCheckSheetPage />} />

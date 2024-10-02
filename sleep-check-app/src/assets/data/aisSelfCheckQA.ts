@@ -16,13 +16,12 @@ export interface IAnswerChoice {
 export const QUESTIONS: IQuestion = {
   question1: "ベッドについてから実際に寝るまで、時間がかかりましたか？",
   question2: "夜間、睡眠の途中で目が覚めましたか？",
-  question3: "希望する起床時間より早く目覚めて、それ以降、眠れないことはありましたか？",
+  question3:"希望する起床時間より早く目覚めて、それ以降、眠れないことはありましたか？",
   question4: "夜の眠りや昼寝も合わせて、睡眠時間はたりていましたか？",
   question5: "全体的な睡眠の質について、どう感じていますか？",
   question6: "日中の気分はいかがでしたか？",
   question7: "日中の身体的及び精神的な活動の状態は、いかがでしたか？",
   question8: "日中の眠気はありましたか？",
-  
 };
 
 export const CHOICELIST: string[] = [
@@ -30,10 +29,6 @@ export const CHOICELIST: string[] = [
   "choice2",
   "choice3",
   "choice4",
-  "choice5",
-  "choice6",
-  "choice7",
-  "choice8",
 ];
 
 export const ANSWERCHOICES: IAnswerChoice[] = [
@@ -97,10 +92,7 @@ export const ANSWERCHOICES: IAnswerChoice[] = [
       choice1: { label: "いつも通り悪くなかった", score: 0 },
       choice2: { label: "少し滅入った", score: 1 },
       choice3: { label: "かなり滅入った", score: 2 },
-      choice4: {
-        label: "非常に滅入った",
-        score: 3,
-      },
+      choice4: { label: "非常に滅入った", score: 3 },
     },
   },
   {
@@ -108,10 +100,7 @@ export const ANSWERCHOICES: IAnswerChoice[] = [
       choice1: { label: "いつも通り", score: 0 },
       choice2: { label: "少し低下した", score: 1 },
       choice3: { label: "かなり低下した", score: 2 },
-      choice4: {
-        label: "非常に低下した",
-        score: 3,
-      },
+      choice4: { label: "非常に低下した", score: 3 },
     },
   },
   {
@@ -119,10 +108,7 @@ export const ANSWERCHOICES: IAnswerChoice[] = [
       choice1: { label: "全くなかった", score: 0 },
       choice2: { label: "少しあった", score: 1 },
       choice3: { label: "かなりあった", score: 2 },
-      choice4: {
-        label: "激しかった",
-        score: 3,
-      },
+      choice4: { label: "激しかった", score: 3 },
     },
   },
 ];

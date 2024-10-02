@@ -51,7 +51,7 @@ function Header() {
         <ul className="mt-6">
           {PAGEURLS.map( (pageUrl) => {
             return (
-              <li className="">
+              <li key={pageUrl.id} className="">
                 <Link to={pageUrl.url}>{pageUrl.title}</Link>
               </li>
             )
@@ -67,7 +67,7 @@ function Header() {
       <ul className="hidden md:flex">
         {PAGEURLS.map((pageUrl) => {
           return (
-            <li className="p-3">
+            <li key={pageUrl.id} className="p-3">
               <Link
                 to={pageUrl.url}
                 className="text-white hover:font-bold"
