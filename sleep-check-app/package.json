@@ -55,5 +55,5 @@
     "@types/react-modal": "^3.16.3",
     "tailwindcss": "^3.4.13"
   },
-  "homepage": "https://betashort.github.io/sleep-check-app/"
+  "homepage": "https://sleep-check-app.betashort-lab.com/"
 }

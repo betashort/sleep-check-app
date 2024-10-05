@@ -13,7 +13,7 @@ function Header() {
     <header className='flex justify-between items-center bg-slate-900'>
     <div className="p-3">
         <h2 className="text-white text-2xl">
-            <Link to="/sleep-check-app">Sleep Check App</Link>
+            <Link to="/">Sleep Check App</Link>
         </h2>
     </div>
     <div className="menu">

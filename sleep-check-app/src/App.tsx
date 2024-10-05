@@ -15,11 +15,11 @@ function App() {
     <Header />
     <div className='w-full'>
       <Routes>
-        <Route path='/sleep-check-app' element={<Dashboard />} />
-        <Route path='/sleep-check-app/sleep-check-sheet' element={<SleepCheckSheetPage />} />
-        <Route path='/sleep-check-app/sleep-dairy' element={<SleepDairyPage />} />
-        <Route path='/sleep-check-app/sleep-tips' element={<SleepTipsPage />} />
-        <Route path='/sleep-check-app/ais-self-check' element={<AISSelfCheckPage />} />
+        <Route path='/' element={<Dashboard />} />
+        <Route path='/sleep-check-sheet' element={<SleepCheckSheetPage />} />
+        <Route path='/sleep-dairy' element={<SleepDairyPage />} />
+        <Route path='/sleep-tips' element={<SleepTipsPage />} />
+        <Route path='/ais-self-check' element={<AISSelfCheckPage />} />
       </Routes>
     </div>
     <Footer />
