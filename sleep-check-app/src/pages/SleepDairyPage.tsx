@@ -3,9 +3,10 @@ import dayGridPlugin from "@fullcalendar/daygrid";
 import timeGridPlugin from "@fullcalendar/timegrid";
 import jaLocale from "@fullcalendar/core/locales/ja";
 import interactionPlugin, { DateClickArg } from "@fullcalendar/interaction";
-import React, { useCallback, useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import { Box, Modal } from "@mui/material";
 import { IDiaryEvent } from "../shared/interface/sleepCheckSheet";
+import { GetSleepDiary, PostSleepDiary } from "../shared/service/sleepDiaryAPI";
 
 function SleepDairyPage() {
   const style = {
@@ -30,6 +31,11 @@ function SleepDairyPage() {
   const [eventStartTime, setEventStartTime] = useState("23:00");
   const [eventEndTime, setEventEndTime] = useState("06:00");
   
+  //first get diary events list
+  useEffect( () => {
+    getData();
+  }, []);
+
   //handle modal flag
   const OpenModal = () => setModalFlag(true);
   const CloseModal = () => setModalFlag(false);
@@ -60,7 +66,7 @@ function SleepDairyPage() {
     return yyyy + "-" + mm + "-" + dd + "T" + t + "+09:00";
   };
   
-  const HandleSaveEventData = () => {
+  const HandleSaveEventData = async () => {
     const start = TransYMDhm(eventStartDate, eventStartTime);
     const end = TransYMDhm(eventEndDate, eventEndTime);
     const diaryEvent:IDiaryEvent = {
@@ -68,12 +74,21 @@ function SleepDairyPage() {
       start: start,
       end: end,
     }
-    //
-    setDiaryEvents([...diaryEvents, diaryEvent]);
-    console.log(diaryEvents)
-    
+    //debug for frontend
+    //setDiaryEvents([...diaryEvents, diaryEvent]);
+    //console.log(diaryEvents)
+    //Post Diary Event
+    await PostSleepDiary(diaryEvent);
+    getData();
     CloseModal();
   };
+
+  const getData = async () =>{
+    const tmpDiaryEvents:IDiaryEvent[] = await GetSleepDiary();
+    console.log(tmpDiaryEvents)
+    setDiaryEvents(tmpDiaryEvents);
+  }
+
 
   return (
     <>
