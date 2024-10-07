@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.380df46c.css",
-    "main.js": "/static/js/main.86927886.js",
+    "main.css": "/static/css/main.6ab55bca.css",
+    "main.js": "/static/js/main.e07670b4.js",
     "static/js/206.28527580.chunk.js": "/static/js/206.28527580.chunk.js",
     "static/media/sleep.png": "/static/media/sleep.b4d7d968829b82b8647c.png",
     "static/media/参考_睡眠の超基本.jpg": "/static/media/参考_睡眠の超基本.e4c77a1458bfd0465fe2.jpg",
@@ -9,7 +9,7 @@
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.380df46c.css",
-    "static/js/main.86927886.js"
+    "static/css/main.6ab55bca.css",
+    "static/js/main.e07670b4.js"
   ]
 }
