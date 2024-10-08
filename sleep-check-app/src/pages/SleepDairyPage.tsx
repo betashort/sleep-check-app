@@ -33,7 +33,7 @@ function SleepDairyPage() {
   
   //first get diary events list
   useEffect( () => {
-    getData();
+    getDiaryEvents();
   }, []);
 
   //handle modal flag
@@ -79,13 +79,13 @@ function SleepDairyPage() {
     //console.log(diaryEvents)
     //Post Diary Event
     await PostSleepDiary(diaryEvent);
-    getData();
+    getDiaryEvents();
     CloseModal();
   };
 
-  const getData = async () =>{
+  const getDiaryEvents = async () =>{
     const tmpDiaryEvents:IDiaryEvent[] = await GetSleepDiary();
-    console.log(tmpDiaryEvents)
+    //console.log(tmpDiaryEvents)
     setDiaryEvents(tmpDiaryEvents);
   }
 
