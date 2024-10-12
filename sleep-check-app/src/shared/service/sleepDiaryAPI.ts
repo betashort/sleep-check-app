@@ -1,7 +1,7 @@
 import axios from "axios"
 import { IDiaryEvent } from "../interface/sleepCheckSheet"
 
-const apiUrl = "https://sleep-check-api.betashort-lab.com/api/sleep-check/"
+const apiUrl = "https://calendar-api.betashort-lab.com/api/sleep-check-diary/"
 
 export async function GetSleepDiary() {
     return await axios.get(apiUrl).then( (res) => {
